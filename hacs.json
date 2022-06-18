@@ -1,6 +1,6 @@
 {
-    "name": "Shutter Card",
-    "filename": "hass-shutter-card.js",
+    "name": "Shutter Card V1",
+    "filename": "hass-shutter-card-v1.js",
     "render_readme": true,
     "homeassistant": "2021.11.0"
 }
