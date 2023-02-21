@@ -234,7 +234,7 @@ class ShutterCardV1 extends HTMLElement {
       
       const style = document.createElement('style');
       style.textContent = `
-        .sc-shutters { padding: 16px; }
+        .sc-shutters { padding: 0px; padding-bottom: 10px; }
           .sc-shutter { margin-top: 1rem; overflow: hidden; }
           .sc-shutter:first-child { margin-top: 0; }
           .sc-shutter-middle { display: flex; width: fit-content; max-width: 100%; margin: auto; }
@@ -256,7 +256,7 @@ class ShutterCardV1 extends HTMLElement {
                 .sc-shutter-movement-close {display: none}
           .sc-shutter-top { text-align: center; margin-bottom: 1rem; }
           .sc-shutter-bottom { text-align: center; margin-top: 1rem; }
-            .sc-shutter-label { display: inline-block; font-size: 20px; vertical-align: middle; cursor: pointer;}
+            .sc-shutter-label { display: inline-block; font-size: 18px; vertical-align: middle; cursor: pointer;}
             .sc-shutter-position { display: none; vertical-align: middle; padding: 0 6px; margin-left: 1rem; border-radius: 2px; background-color: var(--secondary-background-color); }
       `;
     
